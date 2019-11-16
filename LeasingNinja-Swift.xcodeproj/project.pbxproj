@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302330610F3C4353273AA265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30233A83E26903C6307C1074 /* Assets.xcassets */; };
+		302332D02850B4B0F17435CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30233F932F752D457B7FF7F8 /* Preview Assets.xcassets */; };
+		3023355BED9252FE9DCE4795 /* LeasingNinja_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3023376E9579783D8E745263 /* LeasingNinja_SwiftTests.swift */; };
+		30233561E74B9BBF5B94334E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30233B2D25E804C55B36865A /* AppDelegate.swift */; };
+		30233AD6EA77D1C4BF10DC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302339AA3B2F27587DD93E1B /* Main.storyboard */; };
+		30233D765FA9DC329D0EBFA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302338567470C21FEFA0FF86 /* ContentView.swift */; };
+		30233E190EF13E6B23B4FD41 /* LeasingNinja_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3023357210753A17647BA2AC /* LeasingNinja_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302338EC8C76F966A8B0165B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30233959049AAA919F11AE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30233BB294C5F45F9D2C795C;
+			remoteInfo = "LeasingNinja-Swift";
+		};
+		302339DD42C876147EB72DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30233959049AAA919F11AE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30233BB294C5F45F9D2C795C;
+			remoteInfo = "LeasingNinja-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3023319F76F51D196ED4361E /* LeasingNinja-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeasingNinja-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302331DE5EF87C73D5575DB5 /* LeasingNinja-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeasingNinja-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302334C83F0DE9B9FEC791EC /* LeasingNinja-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeasingNinja-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3023354B40D19AB593B1408B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		3023357210753A17647BA2AC /* LeasingNinja_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeasingNinja_SwiftUITests.swift; sourceTree = "<group>"; };
+		302336F420C71AAF11A97EE1 /* LeasingNinja_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeasingNinja_Swift.entitlements; sourceTree = "<group>"; };
+		3023376E9579783D8E745263 /* LeasingNinja_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeasingNinja_SwiftTests.swift; sourceTree = "<group>"; };
+		302338567470C21FEFA0FF86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		302339E505576F70B1A0B973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		30233A83E26903C6307C1074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30233B2D25E804C55B36865A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30233E538B0410A3A2C5C12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30233F292EA43384244243F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		30233F932F752D457B7FF7F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30233A9EF8C558A6104C557B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30233E864BC018F0B8F94400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30233F6BBC9C6E0EEF4C7E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302330DD8634773A1C04F837 /* LeasingNinja-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				302339E505576F70B1A0B973 /* Info.plist */,
+				30233A83E26903C6307C1074 /* Assets.xcassets */,
+				302336F420C71AAF11A97EE1 /* LeasingNinja_Swift.entitlements */,
+				30233B2D25E804C55B36865A /* AppDelegate.swift */,
+				302339AA3B2F27587DD93E1B /* Main.storyboard */,
+				302338567470C21FEFA0FF86 /* ContentView.swift */,
+				302339B85E902216BF841BDA /* Preview Content */,
+			);
+			path = "LeasingNinja-Swift";
+			sourceTree = "<group>";
+		};
+		3023328AD265ADDB63AE8979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302331DE5EF87C73D5575DB5 /* LeasingNinja-Swift.app */,
+				302334C83F0DE9B9FEC791EC /* LeasingNinja-SwiftTests.xctest */,
+				3023319F76F51D196ED4361E /* LeasingNinja-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302337B88EBE66F24EF2640A /* LeasingNinja-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3023354B40D19AB593B1408B /* Info.plist */,
+				3023357210753A17647BA2AC /* LeasingNinja_SwiftUITests.swift */,
+			);
+			path = "LeasingNinja-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		302339B85E902216BF841BDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30233F932F752D457B7FF7F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30233BAF29ECDD398F4BD790 /* LeasingNinja-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				30233F292EA43384244243F6 /* Info.plist */,
+				3023376E9579783D8E745263 /* LeasingNinja_SwiftTests.swift */,
+			);
+			path = "LeasingNinja-SwiftTests";
+			sourceTree = "<group>";
+		};
+		30233D2B141945FB5740E702 = {
+			isa = PBXGroup;
+			children = (
+				3023328AD265ADDB63AE8979 /* Products */,
+				302330DD8634773A1C04F837 /* LeasingNinja-Swift */,
+				30233BAF29ECDD398F4BD790 /* LeasingNinja-SwiftTests */,
+				302337B88EBE66F24EF2640A /* LeasingNinja-SwiftUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302332EE35BF884FBF124950 /* LeasingNinja-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302336B7F63CF8A178F93AC5 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftUITests" */;
+			buildPhases = (
+				30233E7EF220F0C8304673D9 /* Sources */,
+				30233E864BC018F0B8F94400 /* Frameworks */,
+				30233341015DCEB820EFA781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30233B604F86ABE2CD683156 /* PBXTargetDependency */,
+			);
+			name = "LeasingNinja-SwiftUITests";
+			productName = "LeasingNinja-SwiftUITests";
+			productReference = 3023319F76F51D196ED4361E /* LeasingNinja-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		30233BB294C5F45F9D2C795C /* LeasingNinja-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3023398A6646DFBADA26C2DF /* Build configuration list for PBXNativeTarget "LeasingNinja-Swift" */;
+			buildPhases = (
+				302339646B15310E94D9CF48 /* Sources */,
+				30233F6BBC9C6E0EEF4C7E36 /* Frameworks */,
+				30233A8671D36416A8B548E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeasingNinja-Swift";
+			productName = "LeasingNinja-Swift";
+			productReference = 302331DE5EF87C73D5575DB5 /* LeasingNinja-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30233E4D15522FC5BACB82A9 /* LeasingNinja-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30233296515F8C09BCA31639 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftTests" */;
+			buildPhases = (
+				30233A17BEA54544BCEDA808 /* Sources */,
+				30233A9EF8C558A6104C557B /* Frameworks */,
+				302339B4AF53E0DC23A152A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30233F6931D18C4108E81823 /* PBXTargetDependency */,
+			);
+			name = "LeasingNinja-SwiftTests";
+			productName = "LeasingNinja-SwiftTests";
+			productReference = 302334C83F0DE9B9FEC791EC /* LeasingNinja-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30233959049AAA919F11AE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = LeasingNinja;
+			};
+			buildConfigurationList = 30233B6D96ECCCA224C84BC2 /* Build configuration list for PBXProject "LeasingNinja-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30233D2B141945FB5740E702;
+			productRefGroup = 3023328AD265ADDB63AE8979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30233BB294C5F45F9D2C795C /* LeasingNinja-Swift */,
+				30233E4D15522FC5BACB82A9 /* LeasingNinja-SwiftTests */,
+				302332EE35BF884FBF124950 /* LeasingNinja-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30233341015DCEB820EFA781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302339B4AF53E0DC23A152A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30233A8671D36416A8B548E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302330610F3C4353273AA265 /* Assets.xcassets in Resources */,
+				30233AD6EA77D1C4BF10DC83 /* Main.storyboard in Resources */,
+				302332D02850B4B0F17435CF /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302339646B15310E94D9CF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30233561E74B9BBF5B94334E /* AppDelegate.swift in Sources */,
+				30233D765FA9DC329D0EBFA1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30233A17BEA54544BCEDA808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3023355BED9252FE9DCE4795 /* LeasingNinja_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30233E7EF220F0C8304673D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30233E190EF13E6B23B4FD41 /* LeasingNinja_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30233B604F86ABE2CD683156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30233BB294C5F45F9D2C795C /* LeasingNinja-Swift */;
+			targetProxy = 302338EC8C76F966A8B0165B /* PBXContainerItemProxy */;
+		};
+		30233F6931D18C4108E81823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30233BB294C5F45F9D2C795C /* LeasingNinja-Swift */;
+			targetProxy = 302339DD42C876147EB72DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		302339AA3B2F27587DD93E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30233E538B0410A3A2C5C12C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3023329EBB6FB41542303530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LeasingNinja-Swift/LeasingNinja_Swift.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LeasingNinja-Swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "LeasingNinja-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		30233638FFB00F484F1B7566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		302336872482E977A83A5C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		302339709F43C537FE896147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LeasingNinja-Swift/LeasingNinja_Swift.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LeasingNinja-Swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "LeasingNinja-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		30233CC6132056A6BF15C6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeasingNinja-Swift.app/Contents/MacOS/LeasingNinja-Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LeasingNinja-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		30233D6A7C2A6DA682F4C883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeasingNinja-Swift.app/Contents/MacOS/LeasingNinja-Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LeasingNinja-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		30233E4925D16AE92C1755C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LeasingNinja-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LeasingNinja-Swift";
+			};
+			name = Release;
+		};
+		30233F84120C8C122363737F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LeasingNinja-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LeasingNinja-Swift";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30233296515F8C09BCA31639 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30233D6A7C2A6DA682F4C883 /* Debug */,
+				30233CC6132056A6BF15C6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		302336B7F63CF8A178F93AC5 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30233F84120C8C122363737F /* Debug */,
+				30233E4925D16AE92C1755C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3023398A6646DFBADA26C2DF /* Build configuration list for PBXNativeTarget "LeasingNinja-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3023329EBB6FB41542303530 /* Debug */,
+				302339709F43C537FE896147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30233B6D96ECCCA224C84BC2 /* Build configuration list for PBXProject "LeasingNinja-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302336872482E977A83A5C54 /* Debug */,
+				30233638FFB00F484F1B7566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30233959049AAA919F11AE79 /* Project object */;
+}
