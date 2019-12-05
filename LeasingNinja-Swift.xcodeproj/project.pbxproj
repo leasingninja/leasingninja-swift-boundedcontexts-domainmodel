@@ -7,65 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		302330610F3C4353273AA265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30233A83E26903C6307C1074 /* Assets.xcassets */; };
-		302332D02850B4B0F17435CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30233F932F752D457B7FF7F8 /* Preview Assets.xcassets */; };
-		3023355BED9252FE9DCE4795 /* LeasingNinja_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3023376E9579783D8E745263 /* LeasingNinja_SwiftTests.swift */; };
-		30233561E74B9BBF5B94334E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30233B2D25E804C55B36865A /* AppDelegate.swift */; };
-		30233AD6EA77D1C4BF10DC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302339AA3B2F27587DD93E1B /* Main.storyboard */; };
-		30233D765FA9DC329D0EBFA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302338567470C21FEFA0FF86 /* ContentView.swift */; };
-		30233E190EF13E6B23B4FD41 /* LeasingNinja_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3023357210753A17647BA2AC /* LeasingNinja_SwiftUITests.swift */; };
+		302330FD4C1C90307338DC14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3023393CA802A98670F347EA /* AppDelegate.swift */; };
+		30233186C456D3F86D123037 /* FilloutContractTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30233DE130EC6C47CC6D6F78 /* FilloutContractTest.swift */; };
+		3023319771CEAEEF6FC76B32 /* LeasingNinja_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30233AF5CFC3E7297AD6CC40 /* LeasingNinja_SwiftTests.swift */; };
+		3023322F3674EC0D23A6827F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30233CB063500B759CC8A8C4 /* Car.swift */; };
+		302332B19F2A6D3300011E14 /* FilloutContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302336FADB6BA7F9A144AF26 /* FilloutContract.swift */; };
+		302335548260AE4545381ECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302337A6DC67EE2A49061C08 /* ContentView.swift */; };
+		302335E2FD6BA800D17A2961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3023328183198431FD31241A /* Main.storyboard */; };
+		302338532EA922FFEDCCFD84 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302339BADB0A3A06CF366D8F /* Contract.swift */; };
+		302339ADDFAB74060B9630D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3023345855D104997DC13749 /* Preview Assets.xcassets */; };
+		302339F5BA5D5BEC7944E379 /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302339D01AF1ECC04731E5C4 /* Contracts.swift */; };
+		302339F6D17D21D9615E229F /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30233F7FF4495CF468E48249 /* Amount.swift */; };
+		30233A489918CA87B7FDDCC2 /* LeasingNinja_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302332DED6DF83329A522AA5 /* LeasingNinja_SwiftUITests.swift */; };
+		30233A6C867D981F7018EAFC /* SignDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302331F3A7777C7CAD7C03AD /* SignDate.swift */; };
+		30233B3953ED67DD13F1F42B /* AmountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30233E3C4897E712FF3D2B96 /* AmountTest.swift */; };
+		30233C28658A422618E65C95 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3023391F6FFFEBC7C3F6A0E6 /* Customer.swift */; };
+		30233CDF720C5983A0B761DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302330EC3E963A5C2501549C /* Assets.xcassets */; };
+		30233E97A970AE1874C0D532 /* ContractTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302335FD58645322C6FCA2E0 /* ContractTest.swift */; };
+		30233EC23B3220323D043400 /* ContractNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30233DA47D2424E7B115ACA3 /* ContractNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		302338EC8C76F966A8B0165B /* PBXContainerItemProxy */ = {
+		30233239A83F2C181D6EDD02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 30233959049AAA919F11AE79 /* Project object */;
+			containerPortal = 30233E2DAB943A58D30AF7B1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30233BB294C5F45F9D2C795C;
+			remoteGlobalIDString = 302336B71E9015A97B00E923;
 			remoteInfo = "LeasingNinja-Swift";
 		};
-		302339DD42C876147EB72DCD /* PBXContainerItemProxy */ = {
+		30233684BE88D154EC41777F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 30233959049AAA919F11AE79 /* Project object */;
+			containerPortal = 30233E2DAB943A58D30AF7B1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30233BB294C5F45F9D2C795C;
+			remoteGlobalIDString = 302336B71E9015A97B00E923;
 			remoteInfo = "LeasingNinja-Swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3023319F76F51D196ED4361E /* LeasingNinja-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeasingNinja-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		302331DE5EF87C73D5575DB5 /* LeasingNinja-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeasingNinja-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		302334C83F0DE9B9FEC791EC /* LeasingNinja-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeasingNinja-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3023354B40D19AB593B1408B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		3023357210753A17647BA2AC /* LeasingNinja_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeasingNinja_SwiftUITests.swift; sourceTree = "<group>"; };
-		302336F420C71AAF11A97EE1 /* LeasingNinja_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeasingNinja_Swift.entitlements; sourceTree = "<group>"; };
-		3023376E9579783D8E745263 /* LeasingNinja_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeasingNinja_SwiftTests.swift; sourceTree = "<group>"; };
-		302338567470C21FEFA0FF86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		302339E505576F70B1A0B973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		30233A83E26903C6307C1074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30233B2D25E804C55B36865A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30233E538B0410A3A2C5C12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30233F292EA43384244243F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		30233F932F752D457B7FF7F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		302330EC3E963A5C2501549C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302331F3A7777C7CAD7C03AD /* SignDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignDate.swift; path = Sales/Domain/SignDate.swift; sourceTree = "<group>"; };
+		302332DED6DF83329A522AA5 /* LeasingNinja_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeasingNinja_SwiftUITests.swift; sourceTree = "<group>"; };
+		3023345855D104997DC13749 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		302335171A8B1FF2EA61C96A /* LeasingNinja-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeasingNinja-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302335FD58645322C6FCA2E0 /* ContractTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContractTest.swift; path = Sales/Domain/ContractTest.swift; sourceTree = "<group>"; };
+		3023366CD8288335DB81246D /* LeasingNinja-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeasingNinja-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302336FADB6BA7F9A144AF26 /* FilloutContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilloutContract.swift; path = Sales/Application/FilloutContract.swift; sourceTree = "<group>"; };
+		302337A6DC67EE2A49061C08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3023391F6FFFEBC7C3F6A0E6 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = Sales/Domain/Customer.swift; sourceTree = "<group>"; };
+		3023393CA802A98670F347EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302339BADB0A3A06CF366D8F /* Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contract.swift; path = Sales/Domain/Contract.swift; sourceTree = "<group>"; };
+		302339D01AF1ECC04731E5C4 /* Contracts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contracts.swift; path = Sales/Domain/Contracts.swift; sourceTree = "<group>"; };
+		30233A86F3400D1998C3A922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		30233A8E4363738E337DA6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		30233AF5CFC3E7297AD6CC40 /* LeasingNinja_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeasingNinja_SwiftTests.swift; sourceTree = "<group>"; };
+		30233B3369C238C2B131577A /* LeasingNinja_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeasingNinja_Swift.entitlements; sourceTree = "<group>"; };
+		30233CB063500B759CC8A8C4 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = Sales/Domain/Car.swift; sourceTree = "<group>"; };
+		30233DA47D2424E7B115ACA3 /* ContractNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContractNumber.swift; path = Sales/Domain/ContractNumber.swift; sourceTree = "<group>"; };
+		30233DE130EC6C47CC6D6F78 /* FilloutContractTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilloutContractTest.swift; path = Sales/Application/FilloutContractTest.swift; sourceTree = "<group>"; };
+		30233E3C4897E712FF3D2B96 /* AmountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmountTest.swift; path = Sales/Domain/AmountTest.swift; sourceTree = "<group>"; };
+		30233ECBA655FAD0043E64FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		30233F7FF4495CF468E48249 /* Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Amount.swift; path = Sales/Domain/Amount.swift; sourceTree = "<group>"; };
+		30233F87AF53946F3425ABC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30233FAD36EBB2E204076350 /* LeasingNinja-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeasingNinja-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30233A9EF8C558A6104C557B /* Frameworks */ = {
+		302332EB000DB21E2082CA08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30233E864BC018F0B8F94400 /* Frameworks */ = {
+		30233584D366896966DC1C29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30233F6BBC9C6E0EEF4C7E36 /* Frameworks */ = {
+		30233915E504E893E898D3CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,94 +97,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		302330DD8634773A1C04F837 /* LeasingNinja-Swift */ = {
+		3023336995674C73EC810C78 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				302339E505576F70B1A0B973 /* Info.plist */,
-				30233A83E26903C6307C1074 /* Assets.xcassets */,
-				302336F420C71AAF11A97EE1 /* LeasingNinja_Swift.entitlements */,
-				30233B2D25E804C55B36865A /* AppDelegate.swift */,
-				302339AA3B2F27587DD93E1B /* Main.storyboard */,
-				302338567470C21FEFA0FF86 /* ContentView.swift */,
-				302339B85E902216BF841BDA /* Preview Content */,
-			);
-			path = "LeasingNinja-Swift";
-			sourceTree = "<group>";
-		};
-		3023328AD265ADDB63AE8979 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				302331DE5EF87C73D5575DB5 /* LeasingNinja-Swift.app */,
-				302334C83F0DE9B9FEC791EC /* LeasingNinja-SwiftTests.xctest */,
-				3023319F76F51D196ED4361E /* LeasingNinja-SwiftUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		302337B88EBE66F24EF2640A /* LeasingNinja-SwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3023354B40D19AB593B1408B /* Info.plist */,
-				3023357210753A17647BA2AC /* LeasingNinja_SwiftUITests.swift */,
-			);
-			path = "LeasingNinja-SwiftUITests";
-			sourceTree = "<group>";
-		};
-		302339B85E902216BF841BDA /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				30233F932F752D457B7FF7F8 /* Preview Assets.xcassets */,
+				3023345855D104997DC13749 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		30233BAF29ECDD398F4BD790 /* LeasingNinja-SwiftTests */ = {
+		302333A898EAC34618DD48BB /* LeasingNinja-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				30233F292EA43384244243F6 /* Info.plist */,
-				3023376E9579783D8E745263 /* LeasingNinja_SwiftTests.swift */,
+				30233A86F3400D1998C3A922 /* Info.plist */,
+				302330EC3E963A5C2501549C /* Assets.xcassets */,
+				30233B3369C238C2B131577A /* LeasingNinja_Swift.entitlements */,
+				3023393CA802A98670F347EA /* AppDelegate.swift */,
+				3023328183198431FD31241A /* Main.storyboard */,
+				302337A6DC67EE2A49061C08 /* ContentView.swift */,
+				3023336995674C73EC810C78 /* Preview Content */,
+				30233F7FF4495CF468E48249 /* Amount.swift */,
+				302339BADB0A3A06CF366D8F /* Contract.swift */,
+				3023391F6FFFEBC7C3F6A0E6 /* Customer.swift */,
+				30233CB063500B759CC8A8C4 /* Car.swift */,
+				302331F3A7777C7CAD7C03AD /* SignDate.swift */,
+				30233DA47D2424E7B115ACA3 /* ContractNumber.swift */,
+				302339D01AF1ECC04731E5C4 /* Contracts.swift */,
+				302336FADB6BA7F9A144AF26 /* FilloutContract.swift */,
 			);
-			path = "LeasingNinja-SwiftTests";
+			path = "LeasingNinja-Swift";
 			sourceTree = "<group>";
 		};
-		30233D2B141945FB5740E702 = {
+		302335F560F163A2BB643286 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3023328AD265ADDB63AE8979 /* Products */,
-				302330DD8634773A1C04F837 /* LeasingNinja-Swift */,
-				30233BAF29ECDD398F4BD790 /* LeasingNinja-SwiftTests */,
-				302337B88EBE66F24EF2640A /* LeasingNinja-SwiftUITests */,
+				30233FAD36EBB2E204076350 /* LeasingNinja-Swift.app */,
+				3023366CD8288335DB81246D /* LeasingNinja-SwiftTests.xctest */,
+				302335171A8B1FF2EA61C96A /* LeasingNinja-SwiftUITests.xctest */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302338FBB7382C7DF8E3AB58 = {
+			isa = PBXGroup;
+			children = (
+				302335F560F163A2BB643286 /* Products */,
+				302333A898EAC34618DD48BB /* LeasingNinja-Swift */,
+				30233E74260E79A27FDF012D /* LeasingNinja-SwiftTests */,
+				30233A5B0E448A7A1DB8E3AD /* LeasingNinja-SwiftUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		30233A5B0E448A7A1DB8E3AD /* LeasingNinja-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30233ECBA655FAD0043E64FF /* Info.plist */,
+				302332DED6DF83329A522AA5 /* LeasingNinja_SwiftUITests.swift */,
+			);
+			path = "LeasingNinja-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		30233E74260E79A27FDF012D /* LeasingNinja-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				30233A8E4363738E337DA6C4 /* Info.plist */,
+				30233AF5CFC3E7297AD6CC40 /* LeasingNinja_SwiftTests.swift */,
+				30233E3C4897E712FF3D2B96 /* AmountTest.swift */,
+				302335FD58645322C6FCA2E0 /* ContractTest.swift */,
+				30233DE130EC6C47CC6D6F78 /* FilloutContractTest.swift */,
+			);
+			path = "LeasingNinja-SwiftTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		302332EE35BF884FBF124950 /* LeasingNinja-SwiftUITests */ = {
+		30233569F190481EA0407448 /* LeasingNinja-SwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 302336B7F63CF8A178F93AC5 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftUITests" */;
+			buildConfigurationList = 3023313C17C34FD25015F937 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftTests" */;
 			buildPhases = (
-				30233E7EF220F0C8304673D9 /* Sources */,
-				30233E864BC018F0B8F94400 /* Frameworks */,
-				30233341015DCEB820EFA781 /* Resources */,
+				302330E8D7747E23BE19D985 /* Sources */,
+				30233584D366896966DC1C29 /* Frameworks */,
+				30233DFDDD7B4A35889DB607 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30233B604F86ABE2CD683156 /* PBXTargetDependency */,
+				302330D651C0EF758917D30D /* PBXTargetDependency */,
 			);
-			name = "LeasingNinja-SwiftUITests";
-			productName = "LeasingNinja-SwiftUITests";
-			productReference = 3023319F76F51D196ED4361E /* LeasingNinja-SwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "LeasingNinja-SwiftTests";
+			productName = "LeasingNinja-SwiftTests";
+			productReference = 3023366CD8288335DB81246D /* LeasingNinja-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		30233BB294C5F45F9D2C795C /* LeasingNinja-Swift */ = {
+		302336B71E9015A97B00E923 /* LeasingNinja-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3023398A6646DFBADA26C2DF /* Build configuration list for PBXNativeTarget "LeasingNinja-Swift" */;
+			buildConfigurationList = 302339211AF3E454B47F1722 /* Build configuration list for PBXNativeTarget "LeasingNinja-Swift" */;
 			buildPhases = (
-				302339646B15310E94D9CF48 /* Sources */,
-				30233F6BBC9C6E0EEF4C7E36 /* Frameworks */,
-				30233A8671D36416A8B548E1 /* Resources */,
+				30233F4420C0FAE40DEE2A4B /* Sources */,
+				30233915E504E893E898D3CB /* Frameworks */,
+				30233EB3D3F2A769AB91A2E8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -170,127 +203,140 @@
 			);
 			name = "LeasingNinja-Swift";
 			productName = "LeasingNinja-Swift";
-			productReference = 302331DE5EF87C73D5575DB5 /* LeasingNinja-Swift.app */;
+			productReference = 30233FAD36EBB2E204076350 /* LeasingNinja-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30233E4D15522FC5BACB82A9 /* LeasingNinja-SwiftTests */ = {
+		30233AA4D6567B424E1E6D33 /* LeasingNinja-SwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30233296515F8C09BCA31639 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftTests" */;
+			buildConfigurationList = 302333E9F0C87DC989C8BBED /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftUITests" */;
 			buildPhases = (
-				30233A17BEA54544BCEDA808 /* Sources */,
-				30233A9EF8C558A6104C557B /* Frameworks */,
-				302339B4AF53E0DC23A152A1 /* Resources */,
+				302332C16CBF99569060EDE5 /* Sources */,
+				302332EB000DB21E2082CA08 /* Frameworks */,
+				3023320A7A5E6F75A6C2E7DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30233F6931D18C4108E81823 /* PBXTargetDependency */,
+				302330392F00A162AECFA303 /* PBXTargetDependency */,
 			);
-			name = "LeasingNinja-SwiftTests";
-			productName = "LeasingNinja-SwiftTests";
-			productReference = 302334C83F0DE9B9FEC791EC /* LeasingNinja-SwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "LeasingNinja-SwiftUITests";
+			productName = "LeasingNinja-SwiftUITests";
+			productReference = 302335171A8B1FF2EA61C96A /* LeasingNinja-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30233959049AAA919F11AE79 /* Project object */ = {
+		30233E2DAB943A58D30AF7B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = LeasingNinja;
 			};
-			buildConfigurationList = 30233B6D96ECCCA224C84BC2 /* Build configuration list for PBXProject "LeasingNinja-Swift" */;
+			buildConfigurationList = 30233B88FFEAE67E9565BFB6 /* Build configuration list for PBXProject "LeasingNinja-Swift" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 30233D2B141945FB5740E702;
-			productRefGroup = 3023328AD265ADDB63AE8979 /* Products */;
+			mainGroup = 302338FBB7382C7DF8E3AB58;
+			productRefGroup = 302335F560F163A2BB643286 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30233BB294C5F45F9D2C795C /* LeasingNinja-Swift */,
-				30233E4D15522FC5BACB82A9 /* LeasingNinja-SwiftTests */,
-				302332EE35BF884FBF124950 /* LeasingNinja-SwiftUITests */,
+				302336B71E9015A97B00E923 /* LeasingNinja-Swift */,
+				30233569F190481EA0407448 /* LeasingNinja-SwiftTests */,
+				30233AA4D6567B424E1E6D33 /* LeasingNinja-SwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30233341015DCEB820EFA781 /* Resources */ = {
+		3023320A7A5E6F75A6C2E7DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		302339B4AF53E0DC23A152A1 /* Resources */ = {
+		30233DFDDD7B4A35889DB607 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30233A8671D36416A8B548E1 /* Resources */ = {
+		30233EB3D3F2A769AB91A2E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302330610F3C4353273AA265 /* Assets.xcassets in Resources */,
-				30233AD6EA77D1C4BF10DC83 /* Main.storyboard in Resources */,
-				302332D02850B4B0F17435CF /* Preview Assets.xcassets in Resources */,
+				30233CDF720C5983A0B761DA /* Assets.xcassets in Resources */,
+				302335E2FD6BA800D17A2961 /* Main.storyboard in Resources */,
+				302339ADDFAB74060B9630D0 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		302339646B15310E94D9CF48 /* Sources */ = {
+		302330E8D7747E23BE19D985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30233561E74B9BBF5B94334E /* AppDelegate.swift in Sources */,
-				30233D765FA9DC329D0EBFA1 /* ContentView.swift in Sources */,
+				3023319771CEAEEF6FC76B32 /* LeasingNinja_SwiftTests.swift in Sources */,
+				30233B3953ED67DD13F1F42B /* AmountTest.swift in Sources */,
+				30233E97A970AE1874C0D532 /* ContractTest.swift in Sources */,
+				30233186C456D3F86D123037 /* FilloutContractTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30233A17BEA54544BCEDA808 /* Sources */ = {
+		302332C16CBF99569060EDE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3023355BED9252FE9DCE4795 /* LeasingNinja_SwiftTests.swift in Sources */,
+				30233A489918CA87B7FDDCC2 /* LeasingNinja_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30233E7EF220F0C8304673D9 /* Sources */ = {
+		30233F4420C0FAE40DEE2A4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30233E190EF13E6B23B4FD41 /* LeasingNinja_SwiftUITests.swift in Sources */,
+				302330FD4C1C90307338DC14 /* AppDelegate.swift in Sources */,
+				302335548260AE4545381ECA /* ContentView.swift in Sources */,
+				302339F6D17D21D9615E229F /* Amount.swift in Sources */,
+				302338532EA922FFEDCCFD84 /* Contract.swift in Sources */,
+				30233C28658A422618E65C95 /* Customer.swift in Sources */,
+				3023322F3674EC0D23A6827F /* Car.swift in Sources */,
+				30233A6C867D981F7018EAFC /* SignDate.swift in Sources */,
+				30233EC23B3220323D043400 /* ContractNumber.swift in Sources */,
+				302339F5BA5D5BEC7944E379 /* Contracts.swift in Sources */,
+				302332B19F2A6D3300011E14 /* FilloutContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		30233B604F86ABE2CD683156 /* PBXTargetDependency */ = {
+		302330392F00A162AECFA303 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30233BB294C5F45F9D2C795C /* LeasingNinja-Swift */;
-			targetProxy = 302338EC8C76F966A8B0165B /* PBXContainerItemProxy */;
+			target = 302336B71E9015A97B00E923 /* LeasingNinja-Swift */;
+			targetProxy = 30233239A83F2C181D6EDD02 /* PBXContainerItemProxy */;
 		};
-		30233F6931D18C4108E81823 /* PBXTargetDependency */ = {
+		302330D651C0EF758917D30D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30233BB294C5F45F9D2C795C /* LeasingNinja-Swift */;
-			targetProxy = 302339DD42C876147EB72DCD /* PBXContainerItemProxy */;
+			target = 302336B71E9015A97B00E923 /* LeasingNinja-Swift */;
+			targetProxy = 30233684BE88D154EC41777F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		302339AA3B2F27587DD93E1B /* Main.storyboard */ = {
+		3023328183198431FD31241A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30233E538B0410A3A2C5C12C /* Base */,
+				30233F87AF53946F3425ABC0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -298,11 +344,39 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3023329EBB6FB41542303530 /* Debug */ = {
+		302334934758B3CE3FD3A89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LeasingNinja-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LeasingNinja-Swift";
+			};
+			name = Release;
+		};
+		3023350641377E2B60D69122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeasingNinja-Swift.app/Contents/MacOS/LeasingNinja-Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LeasingNinja-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		302335B537E7F77621E17E91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "LeasingNinja-Swift/LeasingNinja_Swift.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"LeasingNinja-Swift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -313,62 +387,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
-			name = Debug;
-		};
-		30233638FFB00F484F1B7566 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
 			name = Release;
 		};
-		302336872482E977A83A5C54 /* Debug */ = {
+		3023371B38DDCBC23A3B6189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,11 +449,91 @@
 			};
 			name = Debug;
 		};
-		302339709F43C537FE896147 /* Release */ = {
+		3023373259E8F87EDA3F887B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LeasingNinja-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LeasingNinja-Swift";
+			};
+			name = Debug;
+		};
+		302338FE9C06792F036D5A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		30233C3E6724FD89BFEF2701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeasingNinja-Swift.app/Contents/MacOS/LeasingNinja-Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LeasingNinja-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		30233E3200AB01F1FB21002E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "LeasingNinja-Swift/LeasingNinja_Swift.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"LeasingNinja-Swift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -443,99 +544,48 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
-			name = Release;
-		};
-		30233CC6132056A6BF15C6D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeasingNinja-Swift.app/Contents/MacOS/LeasingNinja-Swift";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "LeasingNinja-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
-		30233D6A7C2A6DA682F4C883 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeasingNinja-Swift.app/Contents/MacOS/LeasingNinja-Swift";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "LeasingNinja-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		30233E4925D16AE92C1755C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "LeasingNinja-SwiftUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "LeasingNinja-Swift";
-			};
-			name = Release;
-		};
-		30233F84120C8C122363737F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "LeasingNinja-SwiftUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.leasingninja.LeasingNinja-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "LeasingNinja-Swift";
-			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30233296515F8C09BCA31639 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftTests" */ = {
+		3023313C17C34FD25015F937 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30233D6A7C2A6DA682F4C883 /* Debug */,
-				30233CC6132056A6BF15C6D9 /* Release */,
+				3023350641377E2B60D69122 /* Debug */,
+				30233C3E6724FD89BFEF2701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		302336B7F63CF8A178F93AC5 /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftUITests" */ = {
+		302333E9F0C87DC989C8BBED /* Build configuration list for PBXNativeTarget "LeasingNinja-SwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30233F84120C8C122363737F /* Debug */,
-				30233E4925D16AE92C1755C7 /* Release */,
+				3023373259E8F87EDA3F887B /* Debug */,
+				302334934758B3CE3FD3A89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3023398A6646DFBADA26C2DF /* Build configuration list for PBXNativeTarget "LeasingNinja-Swift" */ = {
+		302339211AF3E454B47F1722 /* Build configuration list for PBXNativeTarget "LeasingNinja-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3023329EBB6FB41542303530 /* Debug */,
-				302339709F43C537FE896147 /* Release */,
+				30233E3200AB01F1FB21002E /* Debug */,
+				302335B537E7F77621E17E91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		30233B6D96ECCCA224C84BC2 /* Build configuration list for PBXProject "LeasingNinja-Swift" */ = {
+		30233B88FFEAE67E9565BFB6 /* Build configuration list for PBXProject "LeasingNinja-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				302336872482E977A83A5C54 /* Debug */,
-				30233638FFB00F484F1B7566 /* Release */,
+				3023371B38DDCBC23A3B6189 /* Debug */,
+				302338FE9C06792F036D5A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30233959049AAA919F11AE79 /* Project object */;
+	rootObject = 30233E2DAB943A58D30AF7B1 /* Project object */;
 }
